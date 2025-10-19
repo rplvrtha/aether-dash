@@ -52,7 +52,7 @@ class App {
       localStorage.setItem("isCollapsed", val)
     );
 
-    document.title = `${this.app.name} - Dashboard`;
+    document.title = `${this.app.name} | Dashboard`;
   }
 
   toggleSidebarCollapse() {
